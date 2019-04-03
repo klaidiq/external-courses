@@ -1,6 +1,4 @@
-var myObject = {};
-
-function keysAndValues(myObject){
+function showKeysAndValues(myObject){
   for(var key in myObject){
     if (myObject.hasOwnProperty(key)){
       console.log("myObject." + key + " = " + myObject[key]);
@@ -8,4 +6,4 @@ function keysAndValues(myObject){
   }
 }
 
-module.exports = keysAndValues;
+module.exports = showKeysAndValues;

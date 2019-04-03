@@ -1,7 +1,7 @@
-var emptyObject = {};
+var myEmptyObject = {};
 
-emptyObject.Name = 'Vladimir';
-emptyObject.Birthday = '09/02/1988';
-emptyObject.Weight = 90;
+myEmptyObject.Name = 'Vladimir';
+myEmptyObject.Birthday = '09/02/1988';
+myEmptyObject.Weight = 90;
 
-delete emptyObject.Weight;
+delete myEmptyObject.Weight;
