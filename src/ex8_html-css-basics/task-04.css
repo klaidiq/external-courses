@@ -1,0 +1,34 @@
+div {
+  width: 500px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.div01 {
+  background-color: red;
+  font-size:0.75em;
+  border: 7px double blue;
+}
+.div02 {
+  width: 300px;
+  background-color: #000080;
+  color: white;
+}
+.div03 {
+  background-color: rgb(0,128,0);
+  font-size:150%;
+  font-family:'Lato';
+}
+.div04 {
+  background-color: hsl(300,100%,50%);
+  font-size: 1.2rem;
+}
+.div05 {
+  background: url(fon.png) space;
+  font-weight: bold;
+  font-size: 20pt;
+  height: 400px;
+  text-align: center;
+  font-family:'Dokdo', sans-serif;
+  border-radius: 20px;
+}
